@@ -11,7 +11,7 @@ public class Ejercicio2 {
 		int d = 7;
 		
 		
-		System.out.println(      a < b || c != d        );
+		System.out.println(      a < b || c != d       );
 
 	}
 
