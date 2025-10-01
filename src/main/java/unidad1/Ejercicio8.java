@@ -14,12 +14,13 @@ import java.io.InputStreamReader;
 
 public class Ejercicio8 {
 
-	public static void main(String[] args) throws IOException {
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		 System.out.print("radio del circulo:");
-		 String r = in.readLine();
-		 System.out.println("perimetro:" + (r * 2d * Math.PI));
-		 System.out.print("area:" + (Math.pow(r, 2d) * Math.PI));
+	public static void main(String[] args) {
+		 final double PI = 3.14;
+		 System.out.print("Radio del circulo: ");
+		 String linea = System.console().readLine();
+		 double r = Double.parseDouble(linea);
+		 System.out.println("Perimetro:" + (r * 2d * Math.PI));
+		 System.out.println("Àrea: " + (Math.pow(r, 2d) * Math.PI));
 		 
 		 
 		
