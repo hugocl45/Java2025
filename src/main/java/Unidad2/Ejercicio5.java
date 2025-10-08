@@ -20,9 +20,13 @@ public class Ejercicio5 {
 		    	
 		    	  else {
 				    	if ("febrero".equalsIgnoreCase(mes))
-					    System.out.println("28 o 29 dias");
-			
-	
+					    System.out.println("30 dias");
+				    	 else {
+						    	if ("febrero".equalsIgnoreCase(mes))
+							    System.out.println("No has intoducido un mes valido");
+			    	 }
+		      }
+	   	 }			    			
 	}
 
 }
