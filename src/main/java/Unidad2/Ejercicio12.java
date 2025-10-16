@@ -20,11 +20,15 @@ public class Ejercicio12 {
 		System.out.print("valor maximo de la suma: ");
 		int max = in.nextInt();
 		while (suma < max) {
-			int n = random.nextInt(899) + 100;
+			int n = random.nextInt(900) + 100;
 			suma += n;
 			contador++;
 			
 		}
+		System.out.printf("Suma: %d\n", suma);
+		System.out.printf("contador: %d\n", contador);
+		
+		
 	}
 
 }
