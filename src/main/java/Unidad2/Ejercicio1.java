@@ -16,6 +16,7 @@ import java.io.InputStreamReader;
 
 public class Ejercicio1 {
 
+	private static final Math Marh = null;
 	public static void main(String[] args) throws NumberFormatException, IOException {
 	       BufferedReader in= new BufferedReader(new InputStreamReader(System.in));
 		   System.out.print("Coordenada x del centro de la primera circunferencia: ");
@@ -44,12 +45,12 @@ public class Ejercicio1 {
 	       else {
 	    	   if (dCentros > sumRadios) {
 	    		   System.out.println("")
-	    	   }
-	       }
+	    	   
+	       
 	    	   else
 	    		   if
 
-	}
-	        {
-	       }
+	
+	       
+	       
   
