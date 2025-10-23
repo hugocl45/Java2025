@@ -15,7 +15,23 @@ public class Ejercicio3 {
 		String a = in.nextLine();
 		System.out.print("intoduce otra cadena:");
 		String b = in.nextLine();
-
+		int cont = 0;
+		int i = 0;
+//		do {
+//			i = a.indexOf(b, i);
+//			if (i != -1) {
+//				i++;
+//				cont++;
+//				
+//			}
+//		}while(i != -1);
+//		System.out.printf("b dentro de a %d veces", cont);
+		
+		while ((i = a.indexOf(b,i))!= -1) {
+			i++;
+			cont++;
+		}
+		System.out.printf("b dentro de a %d veces", cont);
 	}
 
 }
