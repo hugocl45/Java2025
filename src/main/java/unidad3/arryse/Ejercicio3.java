@@ -18,11 +18,11 @@ public class Ejercicio3 {
 					double precio = Double.parseDouble(m.group(2));
 					double cantidad = Double.parseDouble(m.group(3));
 					total += precio * cantidad;
-					System.out.printf("%s (%d), ");
+					System.out.printf("%s (%d), ", mueble, cantidad);
 					
 				}
-				System.out.printnl("importe total ");
-				System.out.prinlnl(" ");
+				System.out.println("importe total ");
+				System.out.println(total);
 				
 				
 			}
