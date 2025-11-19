@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Proyecto Web</title>
+  <link rel="stylesheet" href="estilos.css"> <!-- si tienes un archivo CSS -->
+</head>
+<body>
+  <header>
+    <h1>Blog del Proyecto Web</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>La revolución digital en la educación</h2>
+      <p><strong>La tecnología está transformando la forma en que aprendemos.</strong> Desde plataformas interactivas hasta inteligencia artificial, el aula tradicional está evolucionando rápidamente.</p>
+
+      <p>Según expertos de <cite>UNESCO</cite>, el acceso a herramientas digitales ha mejorado la inclusión educativa en zonas rurales y desfavorecidas.</p>
+
+      <blockquote>
+        “La educación digital no es solo una tendencia, es una necesidad para preparar a las futuras generaciones” — <cite>Informe Global de Educación 2025</cite>
+      </blockquote>
+
+      <p>Además, el uso de <abbr title="Inteligencia Artificial">IA</abbr> permite personalizar el aprendizaje según el ritmo de cada estudiante.</p>
+
+      <figure>
+        <img src="aula-digital.jpg" alt="Estudiantes usando tabletas en clase" width="600">
+        <figcaption>Estudiantes interactuando con contenido digital en el aula.</figcaption>
+      </figure>
+
+      <p>Actualmente, <mark>más del 70%</mark> de las escuelas en Europa utilizan plataformas digitales como complemento a la enseñanza presencial.</p>
+
+      <p><small>*Este artículo es parte de una serie sobre innovación educativa.</small></p>
+
+      <label for="progreso">Implementación digital en centros educativos:</label>
+      <progress id="progreso" value="70" max="100">70%</progress>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Proyecto Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
